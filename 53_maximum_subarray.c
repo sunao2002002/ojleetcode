@@ -12,7 +12,10 @@
 
 #define out(...) printf(__VA_ARGS__)
 
-/*53. Maximum Subarray*/ int max(int a, int b) { return a > b ? a : b; }
+/*53. Maximum Subarray*/ 
+
+int max(int a, int b) { return a > b ? a : b; }
+
 int maxSubArray(int *nums, int numsSize) {
   int cur_sum, max_sum;
   cur_sum = max_sum = nums[0];
