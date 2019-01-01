@@ -12,7 +12,7 @@
 
 #define out(...) printf(__VA_ARGS__)
 
-/*53. Maximum Subarray*/ 
+/*53. Maximum Subarray*/
 
 int max(int a, int b) { return a > b ? a : b; }
 
